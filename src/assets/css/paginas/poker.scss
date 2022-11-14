@@ -1,0 +1,5 @@
+.img_span {
+    @include img_bg_cover;
+    background-image: url('../../img/poker_girl.jpg');
+    min-height: 400px;
+}

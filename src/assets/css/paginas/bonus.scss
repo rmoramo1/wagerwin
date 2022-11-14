@@ -1,0 +1,67 @@
+.promo {
+    min-width: 200px;
+    min-height: 450px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #000;
+
+    &:hover {
+        animation: breath 5s linear infinite;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .promo {   
+        &:hover {
+            animation: none;
+        }
+    }
+}
+@keyframes breath {
+    0% {
+        background-size: 110% auto;
+        border-radius: 0;
+    }
+
+    50% {
+        background-size: 140% auto;
+        border-radius: 50px;
+        box-shadow: 0 0 15px #000;
+    }
+
+    100% {
+        background-size: 110% auto;
+        border-radius: 0;
+    }
+}
+
+.promo_extra_cash{
+    background-image: url('../../img/promotions/cash_prom.jpg');
+}
+.promo_100_btc{
+    background-image: url('../../img/promotions/promotions-2.jpg');
+}
+.promo_10_reload_cash{
+    background-image: url('../../img/promotions/10_cash.jpg');
+}
+.promo_20_reload_cash{
+    background-image: url('../../img/promotions/promotions-20-reload-cash.jpg');
+}
+.promo_50_reload_btc{
+    background-image: url('../../img/promotions/promotions-50-reload-btc.jpg');
+}
+.promo_20_reload_btc{
+    background-image: url('../../img/promotions/50_relod_cash.jpg');
+}
+.promo_reduce_juice{
+    background-image: url('../../img/promotions/reduce_juice.jpg');
+}
+.promo_10_cashback{
+    background-image: url('../../img/promotions/promotions-reload-cash.jpg');
+}
+.promo_line_movers{
+    background-image: url('../../img/promotions/line_mover.jpg');
+}

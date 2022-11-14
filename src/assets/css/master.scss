@@ -1,0 +1,80 @@
+a {
+    color: $gren;
+
+    &:hover {
+        color: $orange;
+    }
+}
+
+.bg_orange {
+    background: $orange;
+}
+
+.bg_green {
+    background: $gren;
+}
+
+.bg_green_dark {
+    background: darken($gren, 10);
+}
+
+.divider {
+    height: 2px;
+    background: $orange;
+    width: 100%;
+}
+
+.shadow {
+    box-shadow: 0 0 5px darken($gren, 80) !important;
+}
+
+.loading {
+    width: 100%;
+    height: 100vh;
+    font-size: 8vh;
+    animation: mymove 1s infinite;
+}
+
+@keyframes mymove {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*bootstrap*/
+.card {
+    overflow: hidden;
+
+}
+
+.card-img-top {
+    transition: all 0.3s linear;
+
+    &:hover {
+        transform: scale(1.02);
+    }
+}
+
+.nav-link {
+    color: $gren;
+
+    &:hover {
+        color: $orange;
+    }
+}
+
+.dropdown-menu {
+    min-width: none;
+
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.2rem;
+        padding-left: 0.2rem;
+    }
+}

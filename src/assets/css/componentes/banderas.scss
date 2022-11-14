@@ -1,0 +1,44 @@
+.banderas_eng,
+.banderas_es,
+.banderas_por {
+    position: absolute;
+    top: 0;
+    right: 20%;
+    z-index: 12345;
+
+    img {
+        max-width: 30px;
+    }
+}
+
+.banderas_es {
+    right: 15%;
+}
+
+.banderas_por {
+    right: 10%;
+}
+
+@media screen and (max-width: 600px) {
+
+    .banderas_eng,
+    .banderas_es,
+    .banderas_por {
+        position: absolute;
+        top: 0;
+        right: 70%;
+        z-index: 12345;
+
+        img {
+            max-width: 30px;
+        }
+    }
+
+    .banderas_es {
+        right: 45%;
+    }
+
+    .banderas_por {
+        right: 20%;
+    }
+}

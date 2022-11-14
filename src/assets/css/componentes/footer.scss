@@ -1,0 +1,11 @@
+.footer{
+    padding: 25px 0 0 0;
+    color: $white;
+    a{
+        color:$white;
+        &:hover{
+            color:$white;
+            text-shadow: 0 0 5px $orange;
+        }
+    }
+}

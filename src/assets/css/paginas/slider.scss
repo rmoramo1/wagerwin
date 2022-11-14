@@ -1,0 +1,97 @@
+.slider_sportsbook {
+    @include img_bg_cover;
+    background-image: url('../../img/sliders_paginas_internas/sportsbook.jpg');
+}
+
+.slider_online_casino {
+    @include img_bg_cover;
+    background-image: url('../../img/sliders_paginas_internas/online_casino.jpg');
+}
+
+.slider_racing {
+    @include img_bg_cover;
+    background-image: url('../../img/sliders_paginas_internas/racing.jpg');
+}
+
+.slider_live_betting {
+    @include img_bg_cover;
+    background-image: url('../../img/sliders_paginas_internas/live_bettings.jpg');
+}
+
+.slider_live_casino {
+    @include img_bg_cover;
+    background-image: url('../../img/sliders_paginas_internas/live_casino.jpg');
+}
+
+.slider_live_poker {
+    @include img_bg_cover;
+    background-image: url('../../img/sliders_paginas_internas/poker.jpg');
+}
+
+.slider_live_about {
+    @include img_bg_cover;
+    background-image: url('../../img/sliders_paginas_internas/ABOUT_US.jpg');
+}
+
+.slider_contact {
+    @include img_bg_cover;
+    background-image: url('../../img/cta_about_us.jpg');
+}
+
+.slider_bonus {
+    @include img_bg_cover;
+    background-image: url('../../img/sliders_paginas_internas/promotions.jpg');
+}
+
+.slider_afiliate {
+    @include img_bg_cover;
+    background-image: url('../../img/sliders_paginas_internas/affilate.jpg');
+}
+
+@media screen and (max-width: 600px) {
+    .slider_sportsbook {
+        background-image: url('../../img/sliders_paginas_internas/sportsbook_movil.jpg');
+    }
+
+    .slider_online_casino {
+        background-image: url('../../img/sliders_paginas_internas/online_casino_movil.jpg');
+    }
+
+    .slider_racing {
+        background-image: url('../../img/sliders_paginas_internas/racing_movil.jpg');
+    }
+
+    .slider_live_betting {
+        @include img_bg_cover;
+        background-image: url('../../img/sliders_paginas_internas/live_bettings_movil.jpg');
+    }
+
+    .slider_live_casino {
+        @include img_bg_cover;
+        background-image: url('../../img/sliders_paginas_internas/live_casino_movil.jpg');
+    }
+
+    .slider_live_poker {
+        @include img_bg_cover;
+        background-image: url('../../img/sliders_paginas_internas/poker_movil.jpg');
+    }
+
+    .slider_live_about {
+        @include img_bg_cover;
+        background-image: url('../../img/sliders_paginas_internas/ABOUT_US_MOVIL.jpg');
+    }
+
+    .slider_contact {
+        @include img_bg_cover;
+        background-image: url('../../img/sliders_paginas_internas/ABOUT_US.jpg');
+    }
+
+    .slider_bonus {
+        @include img_bg_cover;
+        background-image: url('../../img/sliders_paginas_internas/promotions_movil.jpg');
+    }
+    .slider_afiliate {
+        @include img_bg_cover;
+        background-image: url('../../img/sliders_paginas_internas/affilat_movil.jpg');
+    }
+}
